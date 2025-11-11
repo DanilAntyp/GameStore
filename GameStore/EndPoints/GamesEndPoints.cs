@@ -1,5 +1,6 @@
 using GameStore.Data;
 using GameStore.DTOs;
+using GameStore.DTOs.GameDTOs;
 using GameStore.Entities;
 using GameStore.Mapping;
 using Microsoft.EntityFrameworkCore;

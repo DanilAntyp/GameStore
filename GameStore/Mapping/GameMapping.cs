@@ -1,4 +1,5 @@
 using GameStore.DTOs;
+using GameStore.DTOs.GameDTOs;
 using GameStore.Entities;
 
 namespace GameStore.Mapping;
