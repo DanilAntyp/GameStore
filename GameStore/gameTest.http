@@ -1,0 +1,28 @@
+GET http://localhost:5128/games/
+###
+
+GET http://localhost:5128/games/3
+###
+POST http://localhost:5128/games/
+Content-Type: application/json
+
+{
+  "name" : "Minecraft",
+  "genreId": 1,
+  "price": 29.99,
+  "releaseDate": "2004-02-02"
+}
+
+###
+PUT http://localhost:5128/games/2
+Content-Type: application/json
+
+{
+  "name" : "counter strike",
+  "genreId": 2,
+  "price": 49.99,
+  "releaseDate": "2012-02-02"
+}
+###
+
+DELETE http://localhost:5128/games/3
